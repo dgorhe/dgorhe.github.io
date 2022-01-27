@@ -1,0 +1,74 @@
+# Your name and what you do
+name: Darvesh Gorhe
+bio: Master's in Data Science (2022)
+
+description: Darvesh Gorhe's Personal Website
+
+# Profile picture
+picture: assets/images/profile.jpg
+
+# your url: http://USERNAME.github.io
+url: https://dgorhe.github.io
+
+# do you want to display social media links? true or false
+social-media: true
+# Add your username for the social media websites listed below
+# If you don't have an account on any of them, comment out the line
+# facebook: myfacebook
+twitter: darveshgorhe
+linkedin: darvesh-gorhe
+github: dgorhe
+email: dsg2157@columbia.edu
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# youtube: myyoutube
+# spotify: myspotify
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# do you want to display an about section? true or false
+about: true
+
+# do you want to display a skills section? true or false
+skills: true
+
+# add your skills here
+skills-list:
+    - HTML
+    - Javascript, NodeJS, TypeScript
+    - ReactJS
+    - Python
+    - Git    
+
+# do you want to display a projects section? true or false
+projects: true
+
+# add your projects here
+project-list:
+    rdoc:
+        name: rdoc
+        description: Alfred plugin to quickly search rdocumentation.org by package and function
+        url: https://github.com/dgorhe/rdoc
+
+
+# do you want to display the theme attribution? true or false
+footer: true
+
+# Enable animations? true or false
+animation: true
+
+gems:
+  - jekyll-seo-tag
+
+exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
