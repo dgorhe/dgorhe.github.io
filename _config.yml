@@ -1,6 +1,6 @@
 # Your name and what you do
 name: Darvesh Gorhe
-bio: Master's in Data Science (2022)
+bio: MS Data Science @ Columbia University (2022)
 
 description: Darvesh Gorhe's Personal Website
 
@@ -43,23 +43,26 @@ about: true
 # do you want to display a skills section? true or false
 skills: true
 
-# add your skills here
-skills-list:
-    - HTML
-    - Javascript, NodeJS, TypeScript
-    - ReactJS
-    - Python
-    - Git    
-
 # do you want to display a projects section? true or false
 projects: true
+
+# # do you want to display a experience section? true or false
+# experience: true
 
 # add your projects here
 project-list:
     rdoc:
         name: rdoc
-        description: Alfred plugin to quickly search rdocumentation.org by package and function
+        description: Alfred plugin to quickly search rdocumentation.org by package and function.
         url: https://github.com/dgorhe/rdoc
+    kitchenpantry:
+        name: Kitchen Pantry
+        description: (In progress) application to help users keep track of food and recipes.
+        url: https://github.com/dgorhe/kitchenpantry
+    blog:
+        name: Personal Blog
+        description: A space where I apply my data science frameworks and skills to contemporary questions.
+        url: https://dgorhe.github.io/blog
 
 
 # do you want to display the theme attribution? true or false
