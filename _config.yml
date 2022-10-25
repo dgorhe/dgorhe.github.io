@@ -51,10 +51,10 @@ projects: true
 
 # add your projects here
 project-list:
-    rdoc:
-        name: rdoc
-        description: Alfred plugin to quickly search rdocumentation.org by package and function.
-        url: https://github.com/dgorhe/rdoc
+    secat:
+        name: SECAT Performance Improvements
+        description: Improved Size-exclusion chromatography toolkit (SECAT) by ~40% through optimizations and multiprocessing support for non-parametric Loess normalization.
+        url: https://github.com/grosenberger/secat/pull/2
     kitchenpantry:
         name: Kitchen Pantry
         description: (In progress) application to help users keep track of food and recipes.
