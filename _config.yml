@@ -41,13 +41,13 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: true
+# skills: true
+
+# do you want to display a experience section? true or false
+experience: true
 
 # do you want to display a projects section? true or false
 projects: true
-
-# # do you want to display a experience section? true or false
-# experience: true
 
 # add your projects here
 project-list:
