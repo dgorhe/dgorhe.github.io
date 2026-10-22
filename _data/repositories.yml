@@ -1,0 +1,10 @@
+github_users:
+  - dgorhe
+
+repo_description_lines_max: 2
+
+github_repos:
+  - dgorhe/hdst_with_priors
+  - dgorhe/protein-hmm
+  - dgorhe/remote-machine-setup
+  - dgorhe/nvim

@@ -1,0 +1,92 @@
+cv:
+  name: Darvesh Gorhe
+  label: PhD Candidate, Biological Sciences
+  email: dsg2157@columbia.edu
+  image: ""
+  summary: PhD candidate in Biological Sciences at Columbia University, in the lab of Marko Jovanovic. M.S. in Data Science, Columbia University (2023).
+
+  social_networks:
+    - network: X
+      username: darveshgorhe
+    - network: GitHub
+      username: dgorhe
+    - network: LinkedIn
+      username: darvesh-gorhe
+
+  sections:
+    Education:
+      - institution: Columbia University
+        area: Biological Sciences
+        studyType: PhD
+        start_date: 2024
+        end_date: present
+
+      - institution: Columbia University
+        area: Data Science
+        studyType: M.S.
+        start_date: 2021
+        end_date: 2023
+
+      - institution: University of California, San Diego
+        area: Physiology & Neuroscience
+        studyType: B.S.
+        start_date: 2015
+        end_date: 2019
+
+    Experience:
+      - company: Jovanovic Lab, Columbia University
+        position: Staff Associate II
+        start_date: 2023-06
+        end_date: 2024-08
+        highlights:
+          - "Demonstrated differential protein turnover within mitochondrial subcomplexes between primary and metastatic pancreatic cancer cells in a patient-derived mouse organoid model. Utilized Python with the following packages: stats, scipy, pandas, matplotlib, numpy."
+          - "Addressed reviewer comments for the SPIDR paper. Demonstrated consistency in peak identification and significance across technical replicates, and consistency between SPIDR and the previous, non-multiplexed method ENCODE. Tools used: BEDtools, samtools, and snakemake."
+          - "Developed an interactive visualization tool for protein interactome data from Supplemental Tables 2 and 8 of the Street et al. RBP interactome paper. The tool provides a local browser-based server to explore protein-protein interactions by interaction type, interaction support, and protein metadata such as cellular location. Tools used: Python, Bokeh, JavaScript."
+          - "Augmented and maintained the Snakemake pipeline for SPIDR data processing, adding support for variable bead ID offsets in paired-end reads, support for mouse alignment (GRCm38), and provenance of the thresholds used to generate BAM files. Tools used: Snakemake, Python, pysam."
+          - "Analyzed data combining size exclusion chromatography and stable isotope labeling of amino acids in mice (SEC-SILAM) to identify differential protein turnover and differential assembly state turnover across ages (6 and 24 months) and tissues (brain cortex and liver). Utilized Python with the following packages: scipy, pandas, and numpy."
+
+      - company: Jovanovic Lab, Columbia University
+        position: Research Assistant
+        start_date: 2022-01
+        end_date: 2023-06
+        highlights:
+          - "Migrated Snakemake pipelines for SPIDR (Split and Pool Identification of RBP targets) to support large-scale analyses at the 10^4 Gb scale. Pipelines use STAR aligner, BEDtools, samtools, FastQC, and MultiQC."
+          - "Migrated 6.8 TB of proteomics data from AWS S3 to Columbia University's Ginsburg high-performance computing (HPC) cluster and network storage, saving an estimated $1,737 per year."
+          - "Optimized the Size-Exclusion Chromatography Toolkit (SECAT): reduced memory usage, parallelized non-parametric normalization with Python's multiprocessing package, and made the conda-based containerized workflow more reproducible."
+
+      - company: Roche Molecular Diagnostics
+        position: Computational Biology Intern
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - "Implemented convex optimization based gene prioritization with PyTorch to explore novel polygenic risk scoring for Alzheimer's Disease using 3 data modalities. Worked on a multi-disciplinary approach using molecular biology, computer science, and data science."
+          - "Independently developed a graph neural network classifier to predict the presence of late-onset Alzheimer's Disease from a hypergraph containing 4 node modalities and 3 edge modalities."
+          - "Created machine learning operations (ML Ops) infrastructure to automate graph neural network training, validation, testing, and inference via PyTorch Lightning."
+
+      - company: Ansync Labs
+        position: Software Engineering Intern
+        start_date: 2021-06
+        end_date: 2022-08
+        highlights:
+          - "Conceptualized, designed, and developed a cloud-based parts ordering system in a collaborative environment using Google Cloud Platform (GCP), reducing ordering time from 1 business day to minutes."
+          - "Developed 36 serverless Cloud Functions hosted on Firebase Functions with NoSQL storage via Firestore, to analyze bills of materials, quote materials, and automate orders through REST APIs provided by several electronics parts suppliers."
+          - "Automated testing of 9 of the 36 serverless functions with TypeScript native tests in an ES6 development environment, using Mocha and the Chai assertion library, to improve code maintainability and simplify debugging."
+
+      - company: California Department of Motor Vehicles
+        position: Student Assistant
+        start_date: 2020-09
+        end_date: 2021-08
+        highlights:
+          - "Designed dynamic Splunk dashboards to monitor 30 unique errors across 12 processes deployed by the Information Systems Division, using Splunk's Search Processing Language (SPL)."
+          - "Developed reports and managed data using Tableau for data visualization, based on existing Power BI datasets and SQL databases."
+          - "Initiated minimum viable product development of a new customer-facing chatbot solution by communicating with stakeholders in the Customer Services Division and presenting potential solutions to the Information Systems Division."
+
+    Skills:
+      - name: Python
+        keywords: "Pandas, PyTorch, scikit-learn, NumPy, BeautifulSoup"
+      - name: R
+        keywords: "ggplot2, tidyverse, dplyr, tibble"
+      - name: Cloud / Infrastructure
+        keywords: "Google Cloud Platform (VMs, Cloud Build, Firebase), Amazon Web Services (S3, EC2), Docker"
+      - name: Web Development
+        keywords: "JavaScript, TypeScript, Node.js, React"

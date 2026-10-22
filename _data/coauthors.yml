@@ -1,0 +1,5 @@
+# map a co-author's last name (lowercase) to their first-name variants and a profile link
+# example:
+# "jovanovic":
+#   - firstname: ["Marko", "M."]
+#     url: https://example.edu/your-profile

@@ -1,0 +1,10 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: dsg2157@columbia.edu # your email address
+github_username: dgorhe
+linkedin_username: darvesh-gorhe
+x_username: darveshgorhe
+rss_icon: true # comment this line to hide the RSS icon
+# scholar_userid: # your Google Scholar ID (the value after "user=" in your profile URL). Uncomment and fill in to show the icon.
+# inspirehep_id: # Inspire HEP author ID. Uncomment and fill in to show the icon.
